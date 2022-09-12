@@ -1,27 +1,27 @@
 {
   "files": {
-    "main.css": "/react-gh-pages/static/css/main.2239d5d1.css",
-    "main.js": "/react-gh-pages/static/js/main.70cb1b9a.js",
-    "static/media/flying-container.svg": "/react-gh-pages/static/media/flying-container.7be8277164f645e1f5852c7f6d51ebe5.svg",
-    "static/media/flying-container-cropped.svg": "/react-gh-pages/static/media/flying-container-cropped.f46006244935e05a1205b1f57c2066e6.svg",
-    "static/media/main-pic.svg": "/react-gh-pages/static/media/main-pic.b47186c1b72ce66b7fb7d30ee0c7bd79.svg",
-    "static/media/mainsm-pic.svg": "/react-gh-pages/static/media/mainsm-pic.be6007833f0fd60fc2ea894dedbed894.svg",
-    "static/media/containers.svg": "/react-gh-pages/static/media/containers.745c79584640ddc966100071f2454b95.svg",
-    "static/media/truck.svg": "/react-gh-pages/static/media/truck.d392135bab3af4e6a3436741b30feec1.svg",
-    "static/media/dog.svg": "/react-gh-pages/static/media/dog.dfdbe1e207f337c6b64ba04fa1fbb60c.svg",
-    "static/media/box-check.svg": "/react-gh-pages/static/media/box-check.62163bace86e80f1e5fa38765a66a488.svg",
-    "static/media/box-list.svg": "/react-gh-pages/static/media/box-list.f45465159764d2d61cecbb5a374f0056.svg",
-    "static/media/attach-pic.svg": "/react-gh-pages/static/media/attach-pic.297198bb2a71dddbf3bc0f0254e1688d.svg",
-    "static/media/boxes.svg": "/react-gh-pages/static/media/boxes.1179d6e725ee24bb890ef9236d72e75e.svg",
-    "static/media/file.svg": "/react-gh-pages/static/media/file.fd693a6152d04c8bc22970337f9f81b1.svg",
-    "static/media/arrow.svg": "/react-gh-pages/static/media/arrow.ac17979fc2a4b1eb8c147984799e49ba.svg",
-    "index.html": "/react-gh-pages/index.html",
-    "static/media/cross.svg": "/react-gh-pages/static/media/cross.42ddb8686930a9621db4098247f32ef1.svg",
-    "main.2239d5d1.css.map": "/react-gh-pages/static/css/main.2239d5d1.css.map",
-    "main.70cb1b9a.js.map": "/react-gh-pages/static/js/main.70cb1b9a.js.map"
+    "main.css": "/autolong/static/css/main.2239d5d1.css",
+    "main.js": "/autolong/static/js/main.e329ba10.js",
+    "static/media/flying-container.svg": "/autolong/static/media/flying-container.7be8277164f645e1f5852c7f6d51ebe5.svg",
+    "static/media/flying-container-cropped.svg": "/autolong/static/media/flying-container-cropped.f46006244935e05a1205b1f57c2066e6.svg",
+    "static/media/main-pic.svg": "/autolong/static/media/main-pic.b47186c1b72ce66b7fb7d30ee0c7bd79.svg",
+    "static/media/mainsm-pic.svg": "/autolong/static/media/mainsm-pic.be6007833f0fd60fc2ea894dedbed894.svg",
+    "static/media/containers.svg": "/autolong/static/media/containers.745c79584640ddc966100071f2454b95.svg",
+    "static/media/truck.svg": "/autolong/static/media/truck.d392135bab3af4e6a3436741b30feec1.svg",
+    "static/media/dog.svg": "/autolong/static/media/dog.dfdbe1e207f337c6b64ba04fa1fbb60c.svg",
+    "static/media/box-check.svg": "/autolong/static/media/box-check.62163bace86e80f1e5fa38765a66a488.svg",
+    "static/media/box-list.svg": "/autolong/static/media/box-list.f45465159764d2d61cecbb5a374f0056.svg",
+    "static/media/attach-pic.svg": "/autolong/static/media/attach-pic.297198bb2a71dddbf3bc0f0254e1688d.svg",
+    "static/media/boxes.svg": "/autolong/static/media/boxes.1179d6e725ee24bb890ef9236d72e75e.svg",
+    "static/media/file.svg": "/autolong/static/media/file.fd693a6152d04c8bc22970337f9f81b1.svg",
+    "static/media/arrow.svg": "/autolong/static/media/arrow.ac17979fc2a4b1eb8c147984799e49ba.svg",
+    "index.html": "/autolong/index.html",
+    "static/media/cross.svg": "/autolong/static/media/cross.42ddb8686930a9621db4098247f32ef1.svg",
+    "main.2239d5d1.css.map": "/autolong/static/css/main.2239d5d1.css.map",
+    "main.e329ba10.js.map": "/autolong/static/js/main.e329ba10.js.map"
   },
   "entrypoints": [
     "static/css/main.2239d5d1.css",
-    "static/js/main.70cb1b9a.js"
+    "static/js/main.e329ba10.js"
   ]
 }
