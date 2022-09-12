@@ -1,0 +1,188 @@
+@import "../variables.scss";
+
+.main-container {
+    background-color: var(--color-bg);
+    display: flex;
+    padding: var(--padding-primary);
+    padding-top: 100px;
+    padding-bottom: 100px;
+    position: relative;
+
+    @media screen and (min-width: 2200px) {
+        padding-top: 210px;
+        padding-bottom: 135px;
+    }
+
+    @media screen and (max-width: 1000px) {
+        flex-direction: column;
+    }
+    @media screen and (max-width: 750px) {
+        padding-bottom: 45px;
+        padding-top: 55px;
+    }
+
+    &__content {
+        position: relative;
+        z-index: 1;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+
+        @media screen and (max-width: 1000px) {
+            align-items: center;
+        }
+
+        @media screen and (max-width: 550px) {
+            align-items: flex-start;
+        }
+
+        &__title {
+            text-transform: uppercase;
+            font-weight: var(--weight-primary);
+            font-size: 60px;
+            color: var(--color-primary);
+            width: 716px;
+            line-height: 68px;
+            margin-bottom: 20px;
+
+            @media screen and (min-width: 2200px) {
+                font-size: 80px;
+                width: 800px;
+                line-height: 85px;
+            }
+
+            @media screen and (max-width: 1410px) {
+                font-size: 55px;
+                width: 550px;
+                line-height: normal;
+            }
+
+            @media screen and (max-width: 1000px) {
+                text-align: center;
+            }
+
+            @media screen and (max-width: 940px) {
+                font-size: 50px;
+                width: 450px;
+            }
+
+            @media screen and (max-width: 550px) {
+                text-align: start;
+                width: fit-content;
+                font-size: 45px;
+                margin-bottom: 12px;
+            }
+
+            @media screen and (max-width: 450px) {
+                font-size: 37px;
+            }
+            @media screen and (max-width: 360px) {
+                font-size: 32px;
+            }
+        }
+
+        &__subtitle {
+            position: relative;
+            color: var(--color-primary-variant);
+            width: fit-content;
+            font-size: var(--size-description);
+            line-height: 24px;
+            margin-bottom: 32px;
+            font-weight: var(--weight-thin);
+
+            @media screen and (min-width: 2200px) {
+                line-height: normal;
+                margin-bottom: 45px;
+            }
+
+            @media screen and (max-width: 550px) {
+                margin-bottom: 20px;;
+            }
+
+            &__span {
+                position: absolute;
+                background: #CCF7FF;
+                border-radius: 12px;
+                transform: rotate(-2deg);
+                color: var(--color-primary);
+                padding: 3px 12px;
+                left: 100%;
+                top: -4px;
+
+                @media screen and (max-width: 450px) {
+                    top: 26px;
+                    left: 91px;
+                    padding: 1px 10px;
+                }
+            }
+        }
+
+        &__button {
+            width: 181px;
+            height: 46px;
+
+            @media screen and (min-width: 2200px) {
+                width: 280px;
+                height: 60px;
+            }
+        }
+    }
+
+    &__img {
+        position: absolute;
+        top: 50px;
+        right: 200px;
+        z-index: 0;
+
+        @media screen and (min-width: 2200px) {
+            display: none;
+        }
+
+        @media screen and (min-width: 1900px) {
+            right: 300px;
+            top: 70px;
+        }
+
+        @media screen and (max-width: 1250px) {
+            right: 100px;
+        }
+
+        @media screen and (max-width: 1100px) {
+            display: none;
+        }
+    }
+
+    &__img-sm {
+        position: absolute;
+        top: 165px;
+        right: 100px;
+        z-index: 0;
+        display: none;
+
+        @media screen and (min-width: 2200px) {
+            display: block;
+            right: 400px;
+            width: 500px;
+            top: 180px;
+        }
+
+        @media screen and (max-width: 1100px) {
+            display: block;
+        }
+        @media screen and (max-width: 1000px) {
+            display: none;
+        }
+        @media screen and (max-width: 150px) {
+            position: static;
+            width: 220px;
+            transform: scaleX(-1);
+        }
+    }
+}
+
+.special-subtitle {
+    @media screen and (max-width: 450px) {
+        width: 223px;
+        line-height: 28px;
+    }
+}

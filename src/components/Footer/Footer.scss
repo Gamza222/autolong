@@ -1,0 +1,58 @@
+@import '../variables.scss';
+
+.footer-container {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: var(--color-bg);
+    padding-bottom: 35px;
+
+    &__line {
+        height: 1px;
+        display: inline-block;
+        width: 100%;
+        background-color: var(--color-line);
+        margin-bottom: 25px;
+    }
+
+    &__content {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+
+        @media screen and (max-width: 810px) {
+            gap: 20px;
+            flex-direction: column;
+        }
+
+        &__logo {
+            @media screen and (max-width: 550px) {
+                    margin-bottom: 0!important;
+                    margin-left: 0!important;
+                }
+        }
+
+        &__interaction {
+            display: flex;
+            align-items: center;
+            gap: 32px;
+
+            @media screen and (max-width: 890px) {
+                gap: 15px;
+            }
+
+            &__tel {
+                font-size: var(--size-primary);
+            }
+        }
+    
+        &__rights {
+            font-size: var(--size-primary);
+            font-weight: var(--weight-thin);
+            color: var(--color-primary-variant);
+        }
+    
+    }
+}

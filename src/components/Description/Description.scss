@@ -1,0 +1,118 @@
+@import "../variables.scss";
+
+.description-container {
+    padding: var(--padding-primary);
+    padding-top: 60px;
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+
+    @media screen and (max-width: 980px) {
+        flex-direction: column;
+    }
+
+    @media screen and (max-width: 750px) {
+        padding-top: 45px;
+    }
+
+    &__title {
+        &__text {
+          font-size: var(--size-title);
+          color: var(--color-primary);  
+          width: 420px;
+          font-weight: var(--weight-primary);
+
+          @media screen and (min-width: 2200px) {
+            width: 570px;
+          }
+
+          @media screen and (max-width: 750px) {
+            width: auto;
+          }
+        }
+    }
+
+    &__content {
+        display: flex;
+        flex-direction: column;
+        gap: 16px;
+
+        &__item-type1, &__item-type2 {
+            padding: 32px;
+            border-radius: 12px;
+            display: flex;
+            align-items: center;
+            gap: 41px;
+
+            @media screen and (max-width: 550px) {
+                flex-direction: column-reverse;
+                padding: 20px 30px;
+                align-items: flex-start;
+            }
+
+            @media screen and (max-width: 1320px) {
+                gap: 20px;
+            }
+            
+            &__text {
+                display: flex;
+                flex-direction: column;
+                align-items: flex-start;
+                gap: 8px;
+
+                @media screen and (min-width: 2200px) {
+                    gap: 20px;
+                }
+
+                &__title {
+                    font-size: var(--size-primary-variant);
+                    font-weight: var(--weight-primary);
+                }
+
+                &__subtitle {
+                    font-size: var(--size-primary);
+                    line-height: 22px;
+
+                    @media screen and (min-width: 1900px) {
+                        line-height: 27px;
+                    }
+
+                    @media screen and (min-width: 2200px) {
+                        line-height: 47px;
+                    }
+                }
+            }
+
+            &__img {
+                @media screen and (min-width: 2200px) {
+                    width: 135px;
+                    height: 135px;
+                }
+            }
+        }
+
+        &__item-type1 {
+            background: #F5F9FA;
+
+            &__text {
+                &__title {
+                    color: var(--color-primary);
+                }
+    
+                &__subtitle {
+                    color: var(--color-primary-variant);
+                }
+            }
+        }
+
+        &__item-type2 {
+            background-color: var(--color-button);
+
+            &__text {
+                &__title, &__subtitle {
+                    color: var(--color-white);
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,79 @@
+@import url('http://fonts.cdnfonts.com/css/helvetica-neue-9');
+
+   :root {
+     /*COLORS*/
+     --color-white: #fff;
+     --color-bg: #F5F9FA;
+     --color-primary: #1B1F20;
+     --color-primary-variant: #7D8385;
+     --color-line: #D0D5D6;
+     --color-button-hover: #c04c1e;
+     --color-button: #EB5E28;
+     --color-button-variant: #E5652E;
+ 
+     /*FONTS*/
+     --font-primary: 'Helvetica 65 Medium', sans-serif;
+     --size-primary: 16px;
+     --size-sm: 12px;
+     --size-sm-variant: 14px;
+     --size-primary-variant: 20px;
+     --size-description: 18px;
+     --size-title: 34px;
+     --weight-primary: 500;
+     --weight-thin: 400;
+
+     /*CONTENT PADDING*/
+     --padding-primary: 0 200px;
+
+    @media screen and (min-width: 1900px) {
+        --padding-primary: 0 300px;
+        --size-primary-variant: 23px;
+        --size-sm: 13px;
+        --size-description: 20px;
+        --size-primary: 20px;
+        --size-title: 47px;
+    }
+
+    @media screen and (min-width: 2200px) {
+        --padding-primary: 0 400px;
+        --size-sm: 17px;
+        --size-primary-variant: 33px;
+        --size-description: 28px;
+        --size-primary: 26px;
+        --size-title: 47px;
+    }
+
+    @media screen and (max-width: 1250px) {
+        --padding-primary: 0 100px;
+    }
+
+    @media screen and (max-width: 1000px) {
+        --size-primary-variant: 18px;
+        --size-description: 16px;
+        --size-primary: 14px;
+        --size-title: 30px;
+    }
+
+    @media screen and (max-width: 750px) {
+        --padding-primary: 0 30px;
+        --size-title: 26px;
+    }
+
+    @media screen and (max-width: 550px) {
+        --size-primary-variant: 20px;
+        --size-primary: 16px;
+        --padding-primary: 0 20px;
+        --size-title: 24px;
+    }
+    @media screen and (max-width: 380px) {
+        --size-primary-variant: 16px;
+        --size-primary: 14px;
+    }
+    @media screen and (max-width: 320px) {
+        --size-primary-variant: 16px;
+        --size-primary: 12px;
+        --size-title: 20px;
+    }
+   }
+
+

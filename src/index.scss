@@ -1,0 +1,88 @@
+@import './components/variables.scss';
+
+body {
+    margin: 0 auto;
+    font-family: var(--font-primary);
+    max-width: 2600px;
+    min-width: 280px;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+    text-decoration: none;
+}
+
+.button {
+    color: var(--color-white);
+    font-size: var(--size-primary);
+    background-color: var(--color-button);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid transparent;
+    border-radius: 8px;
+    cursor: pointer;
+
+    &:hover {
+        background-color: transparent;
+        border: 1px solid var(--color-button);
+        color: var(--color-button);
+    }
+
+    &:active {
+        transform: translateY(1px);
+    }
+}
+
+.container {
+    padding: var(--padding-primary);
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+
+    @media screen and (max-width: 550px) {
+        margin-bottom: 14px;
+        margin-left: -8px;
+    }
+
+    &__img {
+        width: 40px;
+        height: 30px;
+        margin-right: 12px;
+
+        @media screen and (max-width: 550px) {
+            margin-right: 4px;
+        }
+    }
+    &__text {
+        font-family: var(--font-primary);
+        font-weight: var(--weight-thin);
+        font-size: var(--size-primary);
+    }
+}
+
+.tel {
+    color: var(--color-button-variant);
+    font-size: var(--size-primary-variant);
+    font-weight: var(--weight-primary);
+    line-height: 28px;
+
+    @media screen and (min-width: 2200px) {
+       line-height: 47px;
+    }
+
+    @media screen and (max-width: 380px) {
+        line-height: normal;
+    }
+}
+
+.mail {
+    font-size: var(--size-primary);
+    color: var(--color-button-variant);
+    font-weight: var(--weight-primary);
+}
