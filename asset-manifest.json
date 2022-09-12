@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/autolong/static/css/main.2239d5d1.css",
+    "main.css": "/autolong/static/css/main.48266f91.css",
     "main.js": "/autolong/static/js/main.e329ba10.js",
     "static/media/flying-container.svg": "/autolong/static/media/flying-container.7be8277164f645e1f5852c7f6d51ebe5.svg",
     "static/media/flying-container-cropped.svg": "/autolong/static/media/flying-container-cropped.f46006244935e05a1205b1f57c2066e6.svg",
@@ -17,11 +17,11 @@
     "static/media/arrow.svg": "/autolong/static/media/arrow.ac17979fc2a4b1eb8c147984799e49ba.svg",
     "index.html": "/autolong/index.html",
     "static/media/cross.svg": "/autolong/static/media/cross.42ddb8686930a9621db4098247f32ef1.svg",
-    "main.2239d5d1.css.map": "/autolong/static/css/main.2239d5d1.css.map",
+    "main.48266f91.css.map": "/autolong/static/css/main.48266f91.css.map",
     "main.e329ba10.js.map": "/autolong/static/js/main.e329ba10.js.map"
   },
   "entrypoints": [
-    "static/css/main.2239d5d1.css",
+    "static/css/main.48266f91.css",
     "static/js/main.e329ba10.js"
   ]
 }
